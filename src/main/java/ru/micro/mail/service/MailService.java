@@ -1,9 +1,11 @@
 package ru.micro.mail.service;
 
+import ru.micro.mail.model.MailMessageDto;
+
 /**
  * @author Tarkhov Evgeniy
  */
 public interface MailService {
 
-    void sendMail(String message);
+    void sendMail(MailMessageDto mailMessageDto);
 }
